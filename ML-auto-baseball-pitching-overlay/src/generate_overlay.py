@@ -64,10 +64,10 @@ def generate_overlay(video_frames, width, height, fps, outputPath):
             background_frame = draw_ball_curve(background_frame, trajectory)
 
         result_frame = cv2.cvtColor(background_frame, cv2.COLOR_RGB2BGR)
-        cv2.imshow("result_frame", result_frame)
+        #cv2.imshow("result_frame", result_frame)
         out.write(result_frame)
-        if cv2.waitKey(60) & 0xFF == ord("q"):
-            break
+        #if cv2.waitKey(60) & 0xFF == ord("q"):
+            #break
 
 
 def image_registration(ref_image, offset_image, shifts, list_idx, width, height):
