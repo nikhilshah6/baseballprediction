@@ -16,3 +16,4 @@ This is why despite having a decent accuracy score the precision and f1 scores a
 <img width="951" alt="Screen Shot 2025-03-14 at 8 54 31 PM" src="https://github.com/user-attachments/assets/5b39e697-24f0-4f5d-ac23-6b0fc9cde575" />
 
 Note: models.py, dataset.py, train_models.py equivalents are all aggregrated in loader.ipynb. This is within baseballprediction/pitchclassifier
+Data paths: Kaggle API link is in loader.ipynb. The videos with tracers are in baseballprediction/pitchclassifier called the directory avi_files_for_loader. scherzer_scraper_aid.csv contains the pitch types in columns as well as the URLs to the videos pulled from baseballsavant.mlb.com. The model weights are also within baseballprediction/pitchclassifier.
